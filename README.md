@@ -9,4 +9,4 @@ notebooks/: Jupyter notebooks for exploratory data analysis and model training.
 data/: The raw and processed datasets used for the project.
 models/: The trained models.
 tests/: Unit tests for the project code.
-docs/: Additional project documentation.
+docs/: Additional project documentation.# News-Categorization-FineTuned-BERT
