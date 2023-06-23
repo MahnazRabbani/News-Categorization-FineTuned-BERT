@@ -48,10 +48,18 @@ def main():
     try:
         raw_datasets, tokenizer, model = load_data_and_model("ag_news", "bert-base-uncased", 4)
         small_train_dataset, small_eval_dataset, full_train_dataset, full_eval_dataset = tokenize_data(raw_datasets, tokenizer)
+        
+        # Specify the number of epochs
         training_args = get_training_args("test_trainer", "epoch")
+        training_args.num_train_epochs = 5
+
         metric = get_metric("accuracy")
 
         trainer = get_trainer(model, training_args, small_train_dataset, small_eval_dataset, lambda eval_pred: compute_metrics(eval_pred, metric))
+        
+        # Train the model
+        trainer.train()
+
         eval_results = evaluate_model(trainer)
         print(eval_results)
 
@@ -62,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
