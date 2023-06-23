@@ -81,6 +81,8 @@ For more information about the dataset and its usage, refer to the [dataset card
 
 ## Results
 
+The finetuned BERT model has the accuracy of 0.885 on the small (1000 datapoints) sample of the dataset with 3 epoch. 
+
 
 
 ## Contributing
