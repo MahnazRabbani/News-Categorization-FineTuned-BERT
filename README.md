@@ -19,13 +19,9 @@ Clone this repository and navigate to the downloaded directory. Then, install th
 
 ```bash
 pip install -r requirements.txt
+ ```
 
 
-## Usage
-
-Yes, that's a start for a Usage section, but you could provide more specific details to make it easier for people to use your project. Here's a more detailed version:
-
-```markdown
 ## Usage
 
 To run the project, follow these steps:
@@ -38,12 +34,6 @@ To run the project, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Run the data preprocessing script:
-
-   ```bash
-   cd src/data/
-   python preprocessing.py
-   ```
 
 4. Run the model training script:
 
@@ -59,9 +49,6 @@ To visualize the results, run the visualization script:
 ```bash
 cd ../visualization/
 python plots.py
-```
-
-Remember to replace `preprocessing.py`, `bert_classifier.py`, and `plots.py` with the actual names of your scripts.
 ```
 
 
