@@ -35,21 +35,22 @@ To run the project, follow these steps:
    ```
 
 
-4. Run the model training script:
+4. If you want to work on and change the training process:
+   run the model training script:
 
    ```bash
    cd ../models/
    python bert_classifier.py
    ```
 
-The trained models are saved in the `models/trained_models/` directory and can be used for making predictions on new data.
+   If you want to use the trained models load the models from `models/` directory and use it for making predictions on new data.
 
-To visualize the results, run the visualization script:
+<!-- To visualize the results, run the visualization script:
 
 ```bash
 cd ../visualization/
 python plots.py
-```
+``` -->
 
 
 ## Project Structure  
