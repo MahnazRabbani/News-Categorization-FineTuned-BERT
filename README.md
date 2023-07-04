@@ -52,19 +52,19 @@ python plots.py
 
 ## Project Structure  
 
-README.md: This document, a general overview of the project.    
-requirements.txt: The Python dependencies required for this project.     
-src/: The main source code for the project.      
-notebooks/: Jupyter notebooks for exploratory data analysis and model training:      
+**README.md**: this document, a general overview of the project.    
+**requirements.txt**: the Python dependencies required for this project.     
+**src/**: the main source code for the project. models/train.py is the script for fine-tuning BERT.      
+**notebooks/**: Jupyter notebooks for exploratory data analysis and initial model training, includes:      
 
-- text_analysis.ipynb: comparative Analysis of Classification Techniques: Naive Bayes and MLP with Various Vectorization Methods 
-- initial_training.ipynb: initial Fine-tuning of BERT on the classification task 
-- BERT_tune_on_data.ipynb: Fine-tuning of BERT on 1) data (domain adaptation), 2) on task, and 3) finetuning domain adaptated BERT on task    
+- **text_analysis.ipynb**: comparative analysis of Naive Bayes and MLP classification algos with different vectorization methods 
+- **initial_training.ipynb**: initial fine-tuning of BERT on the classification task 
+- **BERT_tune_on_data.ipynb**: fine-tuning of BERT on 1) data (domain adaptation), 2) on classification task , and 3) fine-tuning of domain adaptated BERT on the task    
 
-data/: The raw and processed datasets used for the project.      
-models/: The trained models.      
-tests/: Unit tests for the project code.      
-docs/: Additional project documentation.# News-Categorization-FineTuned-BERT      
+<!--  *data/**: The raw and processed datasets used for the project.    -->  
+**models/**: the trained models are utilized to generate predictions. It's **important to note**, however, that due to file size restrictions on GitHub, these trained models aren't part of the GitHub project and are specified in the .gitignore file to be excluded.    
+<!-- tests/: Unit tests for the project code.     
+docs/: Additional project documentation.# News-Categorization-FineTuned-BERT    -->   
 
 
 ## Dataset
