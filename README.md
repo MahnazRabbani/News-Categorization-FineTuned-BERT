@@ -36,13 +36,10 @@ To run the project, follow these steps:
 
 
 4. If you want to work on and change the training process:
-   run the model training script:
-
-   ```bash
-   cd ../models/
-   python bert_classifier.py
-   ```
-
+   run the model training script: 
+   
+   cd to scr directort and open train.py
+ 
    If you want to use the trained models load the models from `models/` directory and use it for making predictions on new data.
 
 <!-- To visualize the results, run the visualization script:
@@ -58,7 +55,12 @@ python plots.py
 README.md: This document, a general overview of the project.    
 requirements.txt: The Python dependencies required for this project.     
 src/: The main source code for the project.      
-notebooks/: Jupyter notebooks for exploratory data analysis and model training.     
+notebooks/: Jupyter notebooks for exploratory data analysis and model training:      
+
+- text_analysis.ipynb: comparative Analysis of Classification Techniques: Naive Bayes and MLP with Various Vectorization Methods 
+- initial_training.ipynb: initial Fine-tuning of BERT on the classification task 
+- BERT_tune_on_data.ipynb: Fine-tuning of BERT on 1) data (domain adaptation), 2) on task, and 3) finetuning domain adaptated BERT on task    
+
 data/: The raw and processed datasets used for the project.      
 models/: The trained models.      
 tests/: Unit tests for the project code.      
