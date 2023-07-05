@@ -1,3 +1,4 @@
 venv_News-Categorization/
 models/
 notebooks/MyBERT/checkpoint-100/
+notebooks/test_trainer/checkpoint-500/
