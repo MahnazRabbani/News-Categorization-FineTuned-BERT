@@ -1,6 +1,6 @@
 # News Article Classification with Fine-Tuned BERT
 
-This repository contains a machine learning project that classifies news articles into one of four categories of World, Sports, Business, and Sci/Tech using a fine-tuned BERT model. The project uses the AG News dataset available from the Hugging Face datasets library.
+This repository contains a multiclass classifies news articles into one of four categories of World, Sports, Business, and Sci/Tech using a fine-tuned BERT model. The project uses the AG News dataset available from the Hugging Face datasets library.
 
 
 
@@ -56,7 +56,7 @@ python plots.py
 **src/**: the main source code for the project. models/train.py is the final script for fine-tuning BERT.      
 **notebooks/**: Jupyter notebooks for exploratory data analysis and initial model training, includes:      
 
-- **text_analysis.ipynb**: comparative analysis of Naive Bayes and MLP classification algos with different vectorization methods. 
+- **text_analysis.ipynb**: comparative analysis of Naive Bayes and MLP classification algoritjms with different vectorization methods. 
 - **initial_training.ipynb**: initial fine-tuning of BERT on the classification task. 
 - **BERT_tune_on_data.ipynb**: fine-tuning of BERT on 1) data (domain adaptation), 2) on classification task , and 3) fine-tuning of domain adaptated BERT on the task.    
 
